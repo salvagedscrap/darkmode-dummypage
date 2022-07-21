@@ -1,0 +1,233 @@
+/* GENERAL SETTİNG */
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    box-shadow: 1px 2px #888888;
+}
+
+/* HEADER */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem ;
+    background-color: antiquewhite;
+}
+ul{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    width: 20%;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+}
+
+ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.logoContainer{
+    flex-basis: 20%;
+    font-size: 2.4rem;
+}
+
+header section{
+    padding: 12rem;
+    text-align: center;
+}
+header section h1{
+    font-size: 3.8rem;
+}
+
+header section p{
+    text-align: justify;
+    font-size: 1.6rem;
+    padding-top: 4rem;
+}
+
+/* MAIN  */
+.mainTopSub,
+.mainTwo{
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainTopSub>section,
+.mainTwo>section{
+    flex: 50%;
+}
+
+.mainTopSub h2,
+.mainTopSub p,
+.mainTwo h2,
+.mainTwo p{
+    width: 90%;
+    padding: 2rem;
+}
+
+.mainTopSub h2,
+.mainTwo h2{
+    font-size: 2rem;
+}
+.mainTopSub p,
+.mainTwo p{
+    font-size: 1.6rem;
+}
+
+
+.mainTwo{
+    display: flex;
+    padding: 10rem 0;
+}
+
+
+.features{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features>section{
+    width: 30%;
+    text-align: center;
+}
+
+.features h3{
+    font-size: 1.8rem;
+    padding: 4rem 0;
+}
+
+.features p{
+    font-size: 1.6rem;
+    padding: 2rem 0;
+    text-align: justify;
+}
+
+.cta {
+    display: flex;
+    padding: 16rem 5rem;
+}
+
+.cta>section +section{
+   padding: 4rem 2rem;
+}
+
+
+.cta>section +section h2{
+    font-size: 2.6rem;
+    padding: 2rem 0;
+}
+
+.cta>section +section p{
+    font-size: 1.7rem;
+    padding:  1.2rem 0;
+}
+.cta-button{
+    font-size: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+    padding: 2rem 1.2rem;
+    border-radius: 7px;
+}
+.cta-button:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 2px 2px 1px;
+}
+
+
+.footerNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 8rem 0;
+}
+.footer nav>*{
+    flex: 1;
+}
+footer h2{
+    font-size: 2.4rem;
+text-align: center;
+}
+footer  ul li {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+/* DARK */
+.darkside{
+    font-size: 2.6rem;
+    content: "darkside";
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    padding: 1.2rem 2rem;
+    border-radius: 15px;
+    bottom: 4rem;
+    right: 6rem;
+    
+}
+
+.darkside:hover{
+    cursor: pointer ;
+    background-color: #000;
+}
+.darksideDark{
+    background-color: rgba(255, 255, 255, 0.397);
+    color: #000;
+}
+.darksideDark:hover{
+    color: #fff;
+    background-color: #000;
+}
+.darkmodeBody{
+    background-color: #000;
+    color: #fff;
+}
+
+.darkmodeCta{
+    color: #000;
+    background-color:#fff; 
+}
+.darkmodeCta:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+
+.darkNav{
+    background-color: #888888;
+}
+
